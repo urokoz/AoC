@@ -15,7 +15,7 @@ int main()
 
         int trees = 0;
         int index = 0;
-        while (getline(infile, line))
+        while (getline(infile&, line))
         {
             if (line[index] == '#')
             {
