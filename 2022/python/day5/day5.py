@@ -19,7 +19,8 @@ def part1():
                         
                         ship[index] = stack
 
-                setup_flag = False                        
+                setup_flag = False   
+                continue                     
             
             stacks_setup.append(line)
         
@@ -62,7 +63,8 @@ def part2():
                         
                         ship[index] = stack
 
-                setup_flag = False                        
+                setup_flag = False
+                continue                        
             
             stacks_setup.append(line)
         

@@ -1,5 +1,5 @@
 
-infile = open("input.txt", "r")
+infile = open("day3/input.txt", "r")
 
 tot = 0
 new_f = True
